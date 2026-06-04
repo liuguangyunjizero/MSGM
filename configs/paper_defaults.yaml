@@ -1,0 +1,39 @@
+model:
+  name: MSGM
+  num_channels: 62
+  num_features: 7
+  num_classes: 2
+  hidden_dim: 32
+  graph_layers: [1, 2]
+  chebyshev_order: 4
+  scale_lengths: [16, 23, 36, 76]
+  mamba_layers: 1
+  mamba_state_dim: 16
+  mamba_conv_kernel: 4
+  mamba_expand: 2
+  dropout: 0.25
+
+features:
+  type: rPSD
+  first_window_seconds: 20
+  first_hop_seconds: 4
+  sub_window_seconds: [4, 3, 2, 1]
+  sub_overlap: 0.75
+  bands:
+    - [1, 4]
+    - [4, 8]
+    - [8, 12]
+    - [12, 16]
+    - [16, 20]
+    - [20, 28]
+    - [30, 45]
+
+training:
+  loss: cross_entropy
+  optimizer: AdamW
+  learning_rate: 0.0003
+  label_smoothing: 0.1
+  batch_size: 32
+  epochs_seed: 20
+  epochs_thu_ep_faced: 30
+  early_stopping_patience: 5
