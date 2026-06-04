@@ -4,6 +4,8 @@
   <img src="figs/framework.jpg" alt="MSGM framework" width="600">
 </p>
 
+Paper: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1665145/full
+
 MSGM extracts rPSD features from multi-window EEG segments, builds global and
 local spatial priors with PCC, Manhattan distance, and Gaussian kernel weights,
 and fuses shallow/deep graph encodings with a single-layer MSST-Mamba module
