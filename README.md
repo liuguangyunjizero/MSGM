@@ -1,6 +1,8 @@
 # MSGM: A Multi-Scale Spatiotemporal Graph Mamba for EEG Emotion Recognition
 
-![MSGM framework](figs/framework.jpg)
+<p align="center">
+  <img src="figs/framework.jpg" alt="MSGM framework" width="600">
+</p>
 
 MSGM extracts rPSD features from multi-window EEG segments, builds global and
 local spatial priors with PCC, Manhattan distance, and Gaussian kernel weights,
