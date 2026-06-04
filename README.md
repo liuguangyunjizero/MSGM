@@ -1,6 +1,4 @@
-# MSGM
-
-Source code for **MSGM: A Multi-Scale Spatiotemporal Graph Mamba for EEG Emotion Recognition**.
+# MSGM: A Multi-Scale Spatiotemporal Graph Mamba for EEG Emotion Recognition
 
 ![MSGM framework](figs/framework.jpg)
 
