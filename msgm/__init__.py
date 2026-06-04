@@ -1,4 +1,4 @@
-"""MSGM partial source release."""
+"""MSGM package."""
 
 from .model import MSGM, MambaConfig, count_parameters
 from .preprocessing import make_multiscale_rpsd

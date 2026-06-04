@@ -80,6 +80,10 @@ see `LICENSE`.
 
 ## Citation
 
+Liu H, Gong Y, Yan Z, Zhuang Z and Lu J (2026) MSGM: a multi-scale
+spatiotemporal graph Mamba for EEG emotion recognition. Front. Neurosci.
+20:1665145. doi: 10.3389/fnins.2026.1665145
+
 ```bibtex
 @article{liu2026msgm,
   title = {MSGM: a multi-scale spatiotemporal graph Mamba for EEG emotion recognition},
