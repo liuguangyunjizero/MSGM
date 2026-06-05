@@ -74,12 +74,6 @@ The implementation supports 62-channel SEED-style and 32-channel
 THU-EP/FACED-style montages through predefined region maps. For a different
 montage, pass `region_ids` to `MSGM`.
 
-## Acknowledgements
-
-This code was developed from an experimental workspace derived from the EmT
-codebase. The EmT-derived portions are distributed under the CBCR License 1.0;
-see `LICENSE`.
-
 ## Citation
 
 Liu H, Gong Y, Yan Z, Zhuang Z and Lu J (2026) MSGM: a multi-scale
